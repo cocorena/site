@@ -1,3 +1,92 @@
-body {
-  color: pink;
+html {
+  background: #ffc0df;
+}
+
+.block {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+}
+
+#header{
+  padding: 30;
+  text-align: right;
+  color: #7f4160;
+  width: 49%;
+}
+
+#header span{
+  font-size: 25px;
+  width: 25%;
+  margin-left: 25%;
+}
+
+/*Navigation Styles */
+#nav ul{
+  padding: 15;
+  width: 49%;
+  margin-left: 25%;
+  color: #7f4160;
+  text-align: justify;
+}
+
+#nav li{
+  list-style: none;
+  display: inline;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 23px;
+}
+
+/* Link styles */
+a:link{
+text-decoration: none;
+color: #7f4160;
+}
+
+a:visited{
+text-decoration: none;
+color: #7f4160;
+}
+
+a:hover{
+text-decoration: underline;
+color: #b25b86;
+}
+
+a:active{
+text-decoration: underline;
+color: #7f4160;
+}
+
+/*Content styles */
+#content
+{
+  background-color: #ff8ec6;
+  -webkit-border-radius: 10px;
+  border-radius: 5px;
+  height: 700px;
+  width: 75%;
+  float:center;
+  clear: both;
+  margin-left: 13%;
+}
+
+#content p{
+  color: #7f4160;
+  font-size: 14px;
+  padding: 15;
+  margin-left: 10px;
+}
+
+/*Footer styles */
+#footer
+{
+  width: 75%;
+  background-color: clear;
+  float: center;
+  clear: both;
+  color: #7f4160;
+  text-align: center;
+  margin-left: 12%;
 }
