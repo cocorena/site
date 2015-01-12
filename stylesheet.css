@@ -2,6 +2,10 @@ html {
   background: #ffc0df;
 }
 
+iframe{
+  background-color: #ff8ec6;
+}
+
 .block {
   display: inline-block;
   vertical-align: top;
@@ -72,7 +76,7 @@ color: #7f4160;
   margin-left: 13%;
 }
 
-#content p{
+#content pre{
   color: #7f4160;
   font-size: 14px;
   padding: 15;
